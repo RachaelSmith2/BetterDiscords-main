@@ -7,6 +7,7 @@ export default {
             items: [
                 "**Upload a different avatar for every server**. With Nitro, be who you want and use a different avatar in each of your servers. Set a unique avatar in each of your servers. Be a student in one, your D&D character in another, and your true self in a third, whoever that may be...",
                 "**Uploaded 8-bit Development** Processing the 8-Bit resolution when scrolling through with BetterHUB",
+                "Detailed Information bout the developing occurances will be all 11th January 2022 **COMING SOON TO BETTERHUB!**"
             ]
         },
         {

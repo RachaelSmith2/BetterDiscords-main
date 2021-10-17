@@ -13,12 +13,13 @@ const Anchor = WebpackModules.getByDisplayName("Anchor");
 
 const Developers = [
     /* Zerebos#7790 */
-    "616108016781099191"
+    "616108016781099191",
+    "886928063852605470"
 ];
 
 const DeveloperBadge = function DeveloperBadge({type, size = 16}) {
     return React.createElement(Tooltip, {color: "primary", position: "top", text: "BetterHUB Developer"},
-        props => React.createElement(Anchor, Object.assign({className: `bd-${type}-badge`, href: "https://github.com/RachaelSmith2/BetterDiscord-main", title: "BetterHUB", target: "_blank"}, props),
+        props => React.createElement(Anchor, Object.assign({className: `bd-${type}-badge`, href: "https://github.com/RachaelSmith2/BetterDiscords-main", title: "BetterHUB", target: "_blank"}, props),
             React.createElement(BDLogo, {size, className: "bd-logo"})
         )
     );
